@@ -4,5 +4,5 @@
 llm:
   api_type: "ollama"  # or azure / ollama / groq etc.
   model: "michaelneale/deepseek-r1-goose"  # or gpt-3.5-turbo
-  base_url: "https://127.0.0.1:11434/api"  # or forward url / other llm url
-  api_key: "YOUR_API_KEY"
+  base_url: "http://127.0.0.1:11434/api"  # or forward url / other llm url
+  #api_key: "YOUR_API_KEY"

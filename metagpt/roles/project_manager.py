@@ -23,7 +23,7 @@ class ProjectManager(Role):
         constraints (str): Constraints or limitations for the project manager.
     """
 
-    name: str = "Eve"
+    name: str = "Skipper"
     profile: str = "Project Manager"
     goal: str = (
         "break down tasks according to PRD/technical design, generate a task list, and analyze task "

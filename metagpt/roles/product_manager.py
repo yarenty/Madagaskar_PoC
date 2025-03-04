@@ -25,7 +25,7 @@ class ProductManager(Role):
         constraints (str): Constraints or limitations for the product manager.
     """
 
-    name: str = "Alice"
+    name: str = "King Julien"
     profile: str = "Product Manager"
     goal: str = "efficiently create a successful product that meets market demands and user expectations"
     constraints: str = "utilize the same language as the user requirements for seamless communication"

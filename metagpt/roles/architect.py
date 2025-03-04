@@ -23,7 +23,7 @@ class Architect(Role):
         constraints (str): Constraints or guidelines for the architect.
     """
 
-    name: str = "Bob"
+    name: str = "Kowalski"
     profile: str = "Architect"
     goal: str = "design a concise, usable, complete software system"
     constraints: str = (

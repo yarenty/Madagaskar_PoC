@@ -23,7 +23,7 @@ class Teacher(Role):
     """Support configurable teacher roles,
     with native and teaching languages being replaceable through configurations."""
 
-    name: str = "Lily"
+    name: str = "Maurice"
     profile: str = "{teaching_language} Teacher"
     goal: str = "writing a {language} teaching plan part by part"
     constraints: str = "writing in {language}"

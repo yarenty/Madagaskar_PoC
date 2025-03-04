@@ -49,11 +49,11 @@ class InvoiceOCRAssistant(Role):
         language: The language in which the invoice table will be generated.
     """
 
-    name: str = "Stitch"
+    name: str = "Phil"
     profile: str = "Invoice OCR Assistant"
     goal: str = "OCR identifies invoice files and generates invoice main information table"
     constraints: str = ""
-    language: str = "ch"
+    language: str = "en-us"
     filename: str = ""
     origin_query: str = ""
     orc_data: Optional[list] = None

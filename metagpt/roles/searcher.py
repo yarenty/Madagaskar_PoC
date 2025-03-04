@@ -33,7 +33,7 @@ class Searcher(Role):
         search_engine (SearchEngine): The search engine to use.
     """
 
-    name: str = Field(default="Alice")
+    name: str = Field(default="King Julien")
     profile: str = Field(default="Smart Assistant")
     goal: str = "Provide search services for users"
     constraints: str = "Answer is rich and complete"

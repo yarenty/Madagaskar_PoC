@@ -25,7 +25,7 @@ DESC = """
 
 
 class CustomerService(Sales):
-    name: str = "Xiaomei"
+    name: str = "Marlene"
     profile: str = "Human customer service"
     desc: str = DESC
     store: Optional[BaseStore] = Field(default=None, exclude=True)

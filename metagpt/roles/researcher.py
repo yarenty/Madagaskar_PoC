@@ -26,7 +26,7 @@ class Report(BaseModel):
 
 
 class Researcher(Role):
-    name: str = "David"
+    name: str = "Private"
     profile: str = "Researcher"
     goal: str = "Gather information and conduct research"
     constraints: str = "Ensure accuracy and relevance of information"

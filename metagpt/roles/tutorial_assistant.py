@@ -28,11 +28,11 @@ class TutorialAssistant(Role):
         language: The language in which the tutorial documents will be generated.
     """
 
-    name: str = "Stitch"
+    name: str = "Phil"
     profile: str = "Tutorial Assistant"
     goal: str = "Generate tutorial documents"
     constraints: str = "Strictly follow Markdown's syntax, with neat and standardized layout"
-    language: str = "Chinese"
+    language: str = "English"
 
     topic: str = ""
     main_title: str = ""

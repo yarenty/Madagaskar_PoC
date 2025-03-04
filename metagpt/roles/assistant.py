@@ -37,7 +37,7 @@ class MessageType(Enum):
 class Assistant(Role):
     """Assistant for solving common issues."""
 
-    name: str = "Lily"
+    name: str = "Maurice"
     profile: str = "An assistant"
     goal: str = "Help to solve problem"
     constraints: str = "Talk in {language}"

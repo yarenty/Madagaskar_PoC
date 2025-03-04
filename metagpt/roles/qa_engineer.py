@@ -26,7 +26,7 @@ from metagpt.utils.common import any_to_str_set, parse_recipient
 
 
 class QaEngineer(Role):
-    name: str = "Edward"
+    name: str = "Mort"
     profile: str = "QaEngineer"
     goal: str = "Write comprehensive and robust tests to ensure codes will work as expected without bugs"
     constraints: str = (

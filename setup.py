@@ -43,7 +43,6 @@ extras_require = {
         "llama-index-postprocessor-cohere-rerank==0.1.4",
         "llama-index-postprocessor-colbert-rerank==0.1.1",
         "llama-index-postprocessor-flag-embedding-reranker==0.1.2",
-        # "llama-index-vector-stores-milvus==0.1.23",
         "docx2txt==0.8",
     ],
 }
@@ -98,7 +97,7 @@ extras_require["android_assistant"] = [
 
 setup(
     name="metagpt",
-    version="0.8.1",
+    version="1.0.0",
     description="The Multi-Agent Framework",
     long_description=long_description,
     long_description_content_type="text/markdown",
